@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Gamerbox-Parent.iml" filepath="$PROJECT_DIR$/Gamerbox-Parent.iml" />
-      <module fileurl="file://$PROJECT_DIR$/order-service/order-service.iml" filepath="$PROJECT_DIR$/order-service/order-service.iml" />
     </modules>
   </component>
 </project>
