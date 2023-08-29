@@ -33,7 +33,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @Testcontainers
 @AutoConfigureMockMvc
 @ActiveProfiles("test")
-class GamerBoxApplicationTests {
+class ProductServiceApplicationTests {
 
 	@Container
 	static MongoDBContainer mongoDBContainer = new MongoDBContainer("mongo:4.0.10");

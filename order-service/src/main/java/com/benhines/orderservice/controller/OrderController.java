@@ -26,6 +26,7 @@ public class OrderController {
     public ResponseEntity<String> placeNewOrder(@RequestBody OrderRequest orderRequest){
         try {
             service.placeOrder(orderRequest);
+            log.info("\n\n---   Order Placed Successfully   ---\n");
             return ResponseEntity.status(HttpStatus.CREATED).body("Order Placed Successfully.");
         } catch (NoProductStockException e) {
             log.info("\n\n---   Order contains item(s) listed as 'out of stock.'   ---\n");
